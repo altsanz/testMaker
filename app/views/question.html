@@ -1,0 +1,37 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#About">About</a></li>
+  </ul>
+  <h3 class="text-muted">testMaker</h3>
+</div>
+
+<div class="jumbotron">
+  <h2>{{ question }}</h1>
+  <p class="lead" ng-class="{ correction : correction }" ng-repeat="(answerId, answerText) in answers">
+    <a href="" ng-click="select(answerId)" ng-class="{selected : selectedId === answerId, right : answerId === correctId}" >{{answerId }}) {{ answerText }}</a>
+  
+  </p>
+  <p><a class="btn btn-warning" ng-click="try()">Correct me! <span class="glyphicon glyphicon-ok"></span></a>
+    <a class="btn btn-primary" ng-href="#/Question/{{nextId}}">Go next!<span class="glyphicon glyphicon-ok"></span></a></p>
+
+</div>
+
+<div class="row marketing">
+  <h4>HTML5 Boilerplate</h4>
+  <p>
+    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
+
+  <h4>Angular</h4>
+  <p>
+    AngularJS is a toolset for building the framework most suited to your application development.
+  </p>
+
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+</div>

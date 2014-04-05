@@ -1,0 +1,20 @@
+{
+    "1": {
+        "question": "why this?",
+        "answers": {
+            "a" : "my butt",
+            "b" : "your butt",
+            "c" : "everybodys butt"
+        },
+        "correct" : "b"
+    },
+    "2": {
+        "question": "why 2?",
+        "answers": {
+            "a" : "2",
+            "b" : "2 more",
+            "c" : "2 is the number"
+        },
+        "correct" : "c"
+    }
+}
