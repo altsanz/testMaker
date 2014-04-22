@@ -1,0 +1,161 @@
+{
+    "1": {
+        "question": "La següent afirmació és certa o falsa? Una promotion és una versió d’un artefacte que es fa accessible a altres desenvolupadors. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "2": {
+        "question": "La següent afirmació és certa o falsa? Una baseline és una versió del sistema formada per un conjunt de IC que han estat revisats i acceptats, i que es posen sota control de la GC. A més, sempre és el conjunt de IC que equivalen a un release. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "question": "La següent afirmació és certa o falsa? La GC és una sèrie de receptes que s'apliquen al principi del cicle de vida del SW. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "question": "Nula",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "5": {
+        "question": "La següent afirmació és certa o falsa? Una best practice és crear una baseline al arribar a una milestone del projecte. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "6": {
+        "question": " La següent afirmació és certa o falsa? Si es fan canvis en component amb overlapping entre equips és preferible realitzar aquests canvis en la branca main, i els canvis que no tenen overlapping és millor fer-los en branques.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "7": {
+        "question": "La següent afirmació és certa o falsa? Els desenvolupadors interessats en la promotion d’un IC fan un rebase.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "8": {
+        "question": "La següent afirmació és certa o falsa. Es bò obrir tantes branques com tasques",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "9": {
+        "question": "La següent afirmació és certa o falsa? El Change Control Board és responsable d’aprovar o refusar les propostes de canvi.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "10": {
+        "question": "La següent afirmació és certa o falsa? En la continuous integration els desenvolupadors treballen en les seves branques i es fan promotions frequentment, el que ajuda a detectar els problemes aviat.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "11": {
+        "question": "La següent afirmació és certa o falsa? El Configuration Manager selecciona i avalua promotions i les converteix en releases.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "12": {
+        "question": "La següent afirmació és certa o falsa? L’ordre temporal aproximat de les fases de gestió d’un projecte són Definition, Conception, Start, Steady State, Termination. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "13": {
+        "question": "La següent afirmació és certa o falsa? El infrastructure set-up es realitza en la fase de steady state.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "14": {
+        "question": "La següent afirmació és certa o falsa? Les tasques estan formades per un grup d’activitats. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "15": {
+        "question": "Quina diferència hi ha entre Work Breakdown Structure (WBS) i el task model? ",
+        "answers": {
+            "a": "Nula"
+        },
+        "correct": "b"
+    },
+    "16": {
+        "question": "La següent afirmació és certa o falsa? El Software Project Management Plan es produeix en la fase Inception.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "17": {
+        "question": "La següent afirmació és certa o falsa? En un WBS orientat a objecte, els components poden servir per identificar activitats d’alt nivell i tasques.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "18": {
+        "question": "La següent afirmació és certa o falsa? Normalment el Project Managet tria els Team Leaders després de crear els grups. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "19": {
+        "question": "La següent afirmació és certa o falsa? No cal que els treballadors comuniquin possibles riscos ja que l’anàlisi de tots els riscos s’ha realitzat durant la confecció del Project Management Plan. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "20": {
+        "question": "La següent afirmació és certa o falsa? En la metodologia Scrum la organització del projecte canvia a mesura que avança el projecte, i en els scrum teams no hi ha rols fixes de manera que la feina de cada sprint es reparteix d’acord als skills de cadascú.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    }
+}
