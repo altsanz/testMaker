@@ -7,6 +7,8 @@ app.controller('MainCtrl', function($scope, PackageManagerService) {
 app.controller('QuestionCtrl', function($scope, $routeParams, OverallService, PackageManagerService) {
     $scope.selectedId = '';
     $scope.id = $routeParams.id;
+    $scope.package = $routeParams.package;
+    
     $scope.nextId = parseInt($routeParams.id, 10) + 1;
     $scope.correctCounter = OverallService.correctCounter;
 
@@ -40,7 +42,7 @@ app.controller('QuestionCtrl', function($scope, $routeParams, OverallService, Pa
         refreshCounters();
     };
 
-    PackageManagerService.getPackage($routeParams.package).get(function(data) {
+    PackageManagerService.getPackage($scope.package).get(function(data) {
         $scope.question = data[$scope.id].question;
         $scope.answers = data[$scope.id].answers;
         $scope.correctId = data[$scope.id].correct;
