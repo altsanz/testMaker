@@ -1,6 +1,6 @@
 'use strict';
 
-angular
+var app = angular
   .module('testMakerApp', [
     'ngCookies',
     'ngResource',
@@ -13,7 +13,7 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/Question/:id/', {
+      .when('/Question/:package/:id/', {
         templateUrl: 'views/question.html',
         controller: 'QuestionCtrl'
       })
@@ -24,3 +24,4 @@ angular
         redirectTo: '/'
       });
   });
+
