@@ -1,0 +1,161 @@
+{
+    "1": {
+        "question": "La següent afirmació és certa o falsa? Una promotion és una nova versió d’un IC.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "2": {
+        "question": "La següent afirmació és certa o falsa? Una baseline és una versió del sistema formada per un conjunt de IC que han estat revisats i acceptats, i que es posen sota control de la GC. A més, sempre és el conjunt de IC que equivalen a un release.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "3": {
+        "question": "La següent afirmació és certa o falsa? Una variant és una instància d’un sistema que és funcionalment diferent però no-funcionalment idèntica a altres instàncies del sistema.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "4": {
+        "question": "La següent afirmació és certa o falsa? El model checkin/checkout dona suport al concepte de versió del sistema.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "5": {
+        "question": "La següent afirmació és certa o falsa? La feina del Change Control Board és fer l’auditoria dels canvis, és a dir, aplicar activitats de SQA abans d’acceptar els canvis. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "6": {
+        "question": "La següent afirmació és certa o falsa? Fer releases molt sovint és bó des del punt de vista de la GC, ja que el client detecta errors aviat i la seva solució no genera un gran volum de canvis.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "7": {
+        "question": "La següent afirmació és certa o falsa? Els desenvolupadors interessats en la promotion d’un IC fan un rebase. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "8": {
+        "question": "La següent afirmació és certa o falsa? Els canvis associats a millores funcionals és millor fer-los a la branca main, i els associats a millores de desenvolupament és millor fer-los a les branques.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "9": {
+        "question": "La següent afirmació és certa o falsa? Les branques és preferible crear-les només quan hi ha overlaps entre diferents tasques i, a més, és recomanable realitzar rebase freqüentment.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "10": {
+        "question": "La següent afirmació és certa o falsa? De les diferents aproximacions a la gestió de variants, el model més utilitzat és el single project",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "11": {
+        "question": "La següent afirmació és certa o falsa? El Configuration Manager selecciona i avalua promotions i les converteix en releases. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "12": {
+        "question": "La següent afirmació és certa o falsa? Quan es fan promotions és recomanable primer fer merging dels canvis importants (els que tenen un impacte en l’arquitectura) i després dels detalls.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    },
+    "13": {
+        "question": "La següent afirmació és certa o falsa? El Project Manager d’un projecte ha de tenir skills técnics. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "14": {
+        "question": "La següent afirmació és certa o falsa? El Task Model és la descomposició del treball en tasques i el Work Breakdown Structure és la representació de la dependència temporal entre tasques. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "15": {
+        "question": "Diferencia entre work package i work product?",
+        "answers": {
+            "a": "Nula"
+        },
+        "correct": "a"
+    },
+    "16": {
+        "question": "La següent afirmació és certa o falsa? No és bò involucrar desenvolupadors durant la fase de definició del Work Breakdown Structure. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "17": {
+        "question": "La següent afirmació és certa o falsa? El model d’assignació de treballadors gradual staffing és preferible al flat staffing. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "18": {
+        "question": "La següent afirmació és certa o falsa? La única manera de recollir informació sobre el status del projecte és utilitzant mètriques. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "19": {
+        "question": "La següent afirmació és certa o falsa? No cal que els treballadors comuniquin possibles riscos ja que l’anàlisi de tots els riscos s’ha realitzat durant la confecció del Project Management Plan.",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "b"
+    },
+    "20": {
+        "question": "La següent afirmació és certa o falsa? En la metodologia Scrum la organització del projecte canvia a mesura que avança el projecte, i en els scrum teams no hi ha rols fixes de manera que la feina de cada sprint es reparteix d’acord als skills de cadascú. ",
+        "answers": {
+            "a": "Cert",
+            "b": "Fals"
+        },
+        "correct": "a"
+    }
+}
