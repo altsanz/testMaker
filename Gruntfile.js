@@ -103,7 +103,7 @@ module.exports = function(grunt) {
             },
             pages: {
                 options: {
-                    remote: 'git@github.com:altsanz/testMaker.git',
+                    remote: 'altsanz@github.com:altsanz/testMaker.git',
                     branch: 'gh-pages'
                 }
             }
