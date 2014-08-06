@@ -1,0 +1,29 @@
+[{
+    "question": "La següent afirmació és certa o falsa? Una promotion és una nova versió d’un IC.",
+    "answers": {
+        "a": "Cert",
+        "b": "Fals"
+    },
+    "correct": "b"
+}, {
+    "question": "La següent afirmació és certa o falsa? Una baseline és una versió del sistema formada per un conjunt de IC que han estat revisats i acceptats, i que es posen sota control de la GC. A més, sempre és el conjunt de IC que equivalen a un release.",
+    "answers": {
+        "a": "Cert",
+        "b": "Fals"
+    },
+    "correct": "b"
+}, {
+    "question": "La següent afirmació és certa o falsa? Una variant és una instància d’un sistema que és funcionalment diferent però no-funcionalment idèntica a altres instàncies del sistema.",
+    "answers": {
+        "a": "Cert",
+        "b": "Fals"
+    },
+    "correct": "b"
+}, {
+    "question": "La següent afirmació és certa o falsa? El model checkin/checkout dona suport al concepte de versió del sistema.",
+    "answers": {
+        "a": "Cert",
+        "b": "Fals"
+    },
+    "correct": "b"
+}]

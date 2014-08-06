@@ -1,14 +1,17 @@
 'use strict';
 
 app.controller('MainCtrl', function($scope, PackageManagerService) {
-    $scope.availablePackages = PackageManagerService.availablePackages;
+    PackageManagerService.getQuestionnaireList().query(function(data) {
+        console.log(data); 
+        $scope.availablePackages = data;
+    });
 });
 
 app.controller('QuestionCtrl', function($scope, $routeParams, OverallService, PackageManagerService) {
     $scope.selectedId = '';
     $scope.id = $routeParams.id;
     $scope.package = $routeParams.package;
-    
+
     $scope.nextId = parseInt($routeParams.id, 10) + 1;
     $scope.correctCounter = OverallService.correctCounter;
 
@@ -42,12 +45,12 @@ app.controller('QuestionCtrl', function($scope, $routeParams, OverallService, Pa
         refreshCounters();
     };
 
-    PackageManagerService.getPackage($scope.package).get(function(data) {
+    PackageManagerService.getQuestionnaire($scope.package).query(function(data) {
         $scope.question = data[$scope.id].question;
         $scope.answers = data[$scope.id].answers;
         $scope.correctId = data[$scope.id].correct;
     });
-    
+
 
 });
 app.service('OverallService', function() {
@@ -71,20 +74,18 @@ app.service('OverallService', function() {
     };
 });
 
-app.service('PackageManagerService', function($resource) {
-    this.baseLocation = 'questions/';
-    this.availablePackages = [{
-        label: 'GDS April',
-        keyName: 'gdsApril'
-    }, {
-        label: 'GDS June',
-        keyName: 'gdsJune'
-    }, {
-        label: 'Itil 1er Parcial',
-        keyName: 'itil1Parcial'
-    }];
 
-    this.getPackage = function(keyName) {
-        return $resource(this.baseLocation + keyName + '.json');
+/**
+ * Get a specific questionnaire
+ */
+app.service('PackageManagerService', function($resource) {
+    this.baseLocation = 'http://localhost:4730/';
+
+    this.getQuestionnaireList = function() {
+        return $resource(this.baseLocation + 'questionnaires/');
+
+    }
+    this.getQuestionnaire = function(keyName) {
+        return $resource(this.baseLocation + 'questionnaires/' + keyName);
     };
 });

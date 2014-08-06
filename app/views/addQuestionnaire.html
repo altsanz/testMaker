@@ -1,0 +1,47 @@
+<div class="header">
+    <ul class="nav nav-pills pull-right">
+        <li class="active"><a ng-href="#">Home</a>
+        </li>
+        <li><a ng-href="#About">About</a>
+        </li>
+    </ul>
+    <h3 class="text-muted">testMaker</h3>
+</div>
+
+<div class="jumbotron">
+    <h2>Add a questionnaire</h1>
+        <form role="form">
+            <div class="form-group">
+                <label for="title">Title</label>
+
+                <input id="title" type="text" class="title form-control">
+            </div>
+
+        </form>
+
+		<label for="add-questions-accordion">Questions</label>
+        <div id="add-questions-accordion" ng-controller="AddQuestionsAccordionCtrl">
+            <accordion>
+
+                <accordion-group heading="{{question.title}}" ng-repeat="question in questions">
+                    {{question.content}}
+                </accordion-group>
+                <accordion-group heading="Dynamic Body Content">
+                    <p>The body of the accordion group grows to fit the contents</p>
+                    <button class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
+                    <div ng-repeat="item in items">{{item}}</div>
+                </accordion-group>
+                
+            </accordion>
+            <a class="btn btn-info" ng-click="addQuestion()">Add a question <span class="glyphicon glyphicon-ok"></span></a>
+            <a class="btn btn-info" ng-click="createQuestionnaire()">Create questionnaire<span class="glyphicon glyphicon-ok"></span></a>
+        </div>
+
+</div>
+
+
+
+<div class="footer">
+    <p>
+        <span class="glyphicon glyphicon-heart"></span>from the 63Studio</p>
+</div>
